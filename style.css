@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  list-style: none;
+
+}
+
+.container{
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.hero{
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+}
+
+.left{
+  width: 400px;
+}
+
+.right img{
+  width: 600px;
+  height: 400px;
+}
+.right img:hover{
+  cursor: pointer;
+}
+.last-news{
+  display: flex;
+  gap: 20px;
+  flex-direction: column-reverse;
+}
+
+
+
+
+/*
+git config --global user.name
+git config --global user.email
+/*
+
+git init 
+git add .
+git commit -m "Lohiyani boshladim"
+git remote add origin https://github.com/Yahyobek1505/project.git
+git branch -M main
+git push -u origin main
+*/
